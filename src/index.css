@@ -17,17 +17,29 @@
     width: 12vw ;
 }
 
+#navbar button{
+    display: none;
+}
+
 #navbar div{
     display: flex;
     justify-content: space-around;
 }
 
 
-.navbar_link{
+.navbar_link,.navbar_link_resp{
     text-decoration:none;
     font-size: 20px;
     font-weight: bolder;
     color: hotpink;
+
+}
+
+#nav_resp{
+    width: 80%;
+    margin: 0.5% 10%;
+    list-style: none;
+    text-align: center;
 }
 
 .navbar_link_active{
@@ -41,9 +53,7 @@
     align-items: center;
     justify-content: center;
     color:white;
-
 }
-
 
 .slider_1{
     background: url(./images/slider_1_img.jpg);
@@ -56,7 +66,7 @@
 .slider_1,.slider_2{
     background-size: cover;
     width: 100%;
-   transition: width 2s ease-in;
+    transition: width 2s ease-in;
 }
 
 #flags{
@@ -66,9 +76,9 @@
     padding: 1%;
     background: rgb(151, 150, 150);
     align-items: center;
-  }
-  
-  #flags div{
+}
+
+#flags div{
     display: grid;
     grid-template-columns: repeat(13,auto);
     column-gap: 5px;
@@ -77,18 +87,18 @@
   
   #flags img{
     height: 5vh;
-  }
+}
 
 
 .parallax{
-      width: 100%;
-      height: 600px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      padding:10% 20%;
-      text-align: center;
-  }
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:10% 20%;
+    text-align: center;
+}
 
 .parallax_1{
     background:url(./images/parallax_2.jpg);

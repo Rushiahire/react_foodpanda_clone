@@ -11,7 +11,6 @@ import Error from './Error'
 import Footer from './Footer/FOOTER';
 
 
-
 const App = ()=>{
 
     let id=200;

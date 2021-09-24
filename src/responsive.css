@@ -1,0 +1,32 @@
+@media only screen and (max-width:850px){
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #navbar img , #footer img{
+        width:20vw;
+        height:5vh;
+    }
+
+    #navbar button{
+        display: block;
+        /* font-size: 1.5rem; */
+        padding: 1%;
+        border: none;
+        /* outline: none; */
+    }
+
+    #navbar div{
+        display: none;
+    }
+
+    .slider_1,.slider_2{
+        background-size: cover;
+    }
+
+
+    .navbar_link{
+        display: none;
+    }
+}
